@@ -1,8 +1,8 @@
 import { html, LitElement } from '@polymer/lit-element';
 import { repeat } from 'lit-html/lib/repeat.js';
-import './ruler-component.js';
+import './component-ruler.js';
 
-class RulerComponentDemo extends LitElement {
+class ComponentRulerDemo extends LitElement {
   static get properties() {
     return {
     }
@@ -10,10 +10,10 @@ class RulerComponentDemo extends LitElement {
 
   _render(props) {
     return html`
-      <ruler-component direction="horizontal" length="12" unit="in"></ruler-component>
-      <ruler-component direction="vertical" length="12" unit="in"></ruler-component>
+      <component-ruler direction="horizontal" length="12" unit="in"></component-ruler>
+      <component-ruler direction="vertical" length="12" unit="in"></component-ruler>
     `;
   }
 }
 
-window.customElements.define('ruler-component-demo', RulerComponentDemo);
+window.customElements.define('component-ruler-demo', ComponentRulerDemo);

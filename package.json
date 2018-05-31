@@ -1,5 +1,5 @@
 {
-  "name": "component-ruler",
+  "name": "@anoblet/component-ruler",
   "version": "1.0.0",
   "description": "",
   "main": "ruler-component.js",

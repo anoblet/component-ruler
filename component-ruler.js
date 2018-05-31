@@ -1,7 +1,7 @@
 import { html, LitElement } from '@polymer/lit-element';
 import { repeat } from 'lit-html/lib/repeat.js';
 
-class RulerComponent extends LitElement {
+class ComponentRuler extends LitElement {
   static get properties() {
     return {
       direction: {
@@ -97,4 +97,4 @@ class RulerComponent extends LitElement {
   }
 }
 
-window.customElements.define('ruler-component', RulerComponent);
+window.customElements.define('component-ruler', ComponentRuler);
