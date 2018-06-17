@@ -18,7 +18,9 @@ class ComponentRuler extends LitElement {
 
   constructor(props) {
     super(props);
+    this.direction = 'horizontal';
     this.length = 12;
+    this.unit = 'in';
   }
 
   getBlocks() {
@@ -55,6 +57,7 @@ class ComponentRuler extends LitElement {
           justify-content: flex-end;
           border-right: 1px solid;
           padding-right: 16px;
+          min-width: 1in;
           width: 1in;
         }
 
