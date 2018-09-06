@@ -1,5 +1,5 @@
 import { html, LitElement } from '@polymer/lit-element';
-import { repeat } from 'lit-html/lib/repeat.js';
+import { repeat } from 'lit-html/directives/repeat.js';
 
 class ComponentRuler extends LitElement {
   static get properties() {
